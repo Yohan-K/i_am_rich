@@ -6,14 +6,14 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
+          centerTitle: true,
           title: Text('I am Rich'),
           foregroundColor: Colors.white,
           backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://www.seattlekdaily.com/news/photo/202410/11683_15072_5537.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
